@@ -3,12 +3,12 @@ The program simulates manual input by automatically typing the text from the cli
 Currently, it's only supported in Mac.
 ## Installation and running
 Make sure the required dependencies are met and follow the instructions:<br>
-* [python]()
-* pip
+* [python](dependencies.md)
+* [pip](dependencies.md)
 ### Installation on MacOS
 1. Install the dependencies
 ```python
 pip3 install pynput paperclip
 pip3 install pygetwindow
 ```
-2. Run `python local.py` at folder "AutoType"
+2. Open terminal at folder `AutoType` and run `python3 local.py` 
