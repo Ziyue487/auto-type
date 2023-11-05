@@ -5,19 +5,14 @@ Make sure the required dependencies are met and follow the instructions:<br>
 * [python](dependencies.md)
 * [pip](dependencies.md)
 
-### Installation on Windows
+### Installation on Windows and MacOS
 1. Install the dependencies
 ```python
-pip install pyperclip pynput
-```
-
-### Installation on MacOS
-1. Install the dependencies
-```python
-pip install pyperclip pyautogui
+pip install pyperclip
+pip install pynput
 ```
 
 ### Run
-1. Open terminal at folder `AutoType` and run `python3 type.py` 
+1. Open terminal at folder `AutoType` and run `python type.py` 
 2. To start auto-typing, press `ctrl + shift + g`
 3. To end the program, press `ctrl + c` in the terminal
