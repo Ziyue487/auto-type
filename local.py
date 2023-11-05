@@ -2,6 +2,7 @@ import pyperclip
 from pynput import keyboard
 import time
 import sys
+import random
 
 typing_enabled = True
 
@@ -31,7 +32,7 @@ def paste_text_letter_by_letter():
     for i, char in enumerate(text_to_paste, 1):
         if typing_enabled:
             keyboard.Controller().type(char)
-            time.sleep(0.05)  # Adjust the delay as needed
+            time.sleep(random.uniform(0.01, 0.09))  # Adjust the delay as needed
             
             # Calculate progress and display it
             progress = i / total_chars * 100
