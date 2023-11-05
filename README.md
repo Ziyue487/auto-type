@@ -4,12 +4,20 @@ The program simulates human input by automatically typing the text from the clip
 Make sure the required dependencies are met and follow the instructions:<br>
 * [python](dependencies.md)
 * [pip](dependencies.md)
+
+### Installation on Windows
+1. Install the dependencies
+```python
+pip install pyperclip pynput
+```
+
 ### Installation on MacOS
 1. Install the dependencies
 ```python
-pip3 install pynput paperclip
-pip3 install pygetwindow
+pip install pyperclip pyautogui
 ```
-2. Open terminal at folder `AutoType` and run `python3 local.py` 
-3. To start auto-typing, press `ctrl + shift + g`
-4. To end the program, press `ctrl + c` in the terminal
+
+### Run
+1. Open terminal at folder `AutoType` and run `python3 type.py` 
+2. To start auto-typing, press `ctrl + shift + g`
+3. To end the program, press `ctrl + c` in the terminal
